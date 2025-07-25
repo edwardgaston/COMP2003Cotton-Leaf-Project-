@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profilebackground"
+    android:layoutDirection="locale"
+    tools:context=".HomePage">
+    <include layout="@layout/navbarmain" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10sp"
+        android:text="Green Guardian"
+        android:textStyle="bold"
+        android:contentDescription="Green Guardian, the apps name"
+        android:textSize="30sp"
+        android:textColor="@color/Title_colour"
+        />
+
+    <View
+        android:id="@+id/HomePageView"
+        android:layout_width="300sp"
+        android:layout_height="570sp"
+        app:layout_constraintTop_toBottomOf="@+id/Title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/textview_border"
+        />
+
+    <TextView
+        android:id="@+id/HomeTitle"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/HomePageView"
+        app:layout_constraintStart_toStartOf="@id/HomePageView"
+        app:layout_constraintEnd_toEndOf="@id/HomePageView"
+        android:text="@string/HomeTitle"
+        android:contentDescription="@string/HomeTitle"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:layout_marginTop="5sp"
+        android:textColor="@color/Title_colour"
+        />
+
+    <TextView
+        android:id="@+id/HomeText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/HomePageView"
+        app:layout_constraintEnd_toEndOf="@id/HomePageView"
+        app:layout_constraintTop_toBottomOf="@id/HomeTitle"
+        android:text="@string/HomeInfo"
+        android:contentDescription="@string/HomeInfo"
+        android:textSize="18sp"
+        android:paddingStart="15sp"
+        android:paddingEnd="15sp"
+
+
+        />
+    <TextView
+        android:id="@+id/DiseasedPlants"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/HomeText"
+        app:layout_constraintStart_toStartOf="@id/HomePageView"
+        app:layout_constraintEnd_toEndOf="@id/HomePageView"
+        android:text="@string/Diseased_Plants"
+        android:contentDescription="@string/Diseased_Plants"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:padding="10sp"
+        />
+
+    <ImageView
+        android:id="@+id/images"
+        android:layout_width="270sp"
+        android:layout_height="90sp"
+        android:background="@drawable/diseased_leaves"
+        app:layout_constraintTop_toBottomOf="@id/DiseasedPlants"
+        app:layout_constraintStart_toStartOf="@id/HomePageView"
+        app:layout_constraintEnd_toEndOf="@id/HomePageView"
+        android:contentDescription="@string/Diseased_Plants"
+        android:layout_marginTop="10sp"
+        />
+
+    <Button
+        android:id="@+id/InfoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/HomePageView"
+        app:layout_constraintStart_toStartOf="@id/HomePageView"
+        app:layout_constraintEnd_toEndOf="@id/HomePageView"
+        app:layout_constraintTop_toBottomOf="@+id/images"
+        android:text="@string/InfoTitle"
+        android:contentDescription="@string/InfoTitle"
+        android:paddingRight="90sp"
+        android:paddingLeft="90sp"
+        android:textColor="@color/ButtonText"
+        android:background="@drawable/welcomepage_button_outline2"
+        android:layout_marginBottom="40sp"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

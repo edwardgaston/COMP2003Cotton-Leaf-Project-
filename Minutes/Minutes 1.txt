@@ -1,0 +1,27 @@
+01/11/23
+Minutes  - Meeting one
+Members Present – Edward, David, Ben, Morgan and the client 
+
+Meeting Purpose – Initial meeting with the client, to introduce all members of the team and to understand and get an initial idea of what the client wants for the project are.
+Points discussed in the meeting 
+•	Client’s view for the project
+o	Gave us (the team) complete creative freedom with the design of the app
+o	Must be user friendly
+o	Clients wants functionality over features.
+	The client also would like the app to give the user a % on the accuracy of the result of if the plant of healthy or diseased.
+	Client also said we can add any features we want to the app.
+o	Client wants the app on android and IOS 
+	Create the app on android first then if we have time make it on IOS 
+o	Client mentioned that she would like the app to be automated 
+	App can be run on drones go scan every plant in the farm, this will help eliminate and issues caused by human error.
+	Wants the app to be on a massive scale 
+o	Smart agriculture
+o	The app will contain a database 
+	In this database it will have photos of cotton plants both healthy and diseased.
+
+Meetings – bi weekly meetings every Monday at 13:30
+Upcoming meetings 
+•	13th November 
+•	27th November ( via zoom, we create the link and send it to the client )
+•	11th December
+

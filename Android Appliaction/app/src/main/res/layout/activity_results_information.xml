@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profilebackground"
+    android:layoutDirection="locale"
+    tools:context=".ResultsInformation">
+    <include
+        layout="@layout/navbarmain" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="100sp"
+        android:layout_height="100sp" />
+
+
+    <View
+        android:id="@+id/InfoPageView"
+        android:layout_marginBottom="60sp"
+        android:layout_width="366dp"
+        android:layout_height="620dp"
+        android:background="@drawable/textview_border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/TitleResults"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="@string/ResultsInfoTitle"
+        android:textColor="@color/Title_colour"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/InfoPageView"
+        app:layout_constraintStart_toStartOf="@id/InfoPageView"
+        app:layout_constraintTop_toTopOf="@id/InfoPageView" />
+
+
+    <ImageView
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:drawablePadding="12dp"
+        android:gravity="center"
+        android:layout_width="278dp"
+        android:layout_height="150dp"
+        android:id="@+id/cameraimageView"
+        android:scaleType="centerInside"
+        app:layout_constraintTop_toBottomOf="@id/TitleResults" />
+
+
+
+    <TextView
+        android:id="@+id/Confidencescoredefenition"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/edittext_outline"
+        android:drawablePadding="12dp"
+        android:gravity="center"
+        android:text="@string/Confidencescoredefenition"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TitleResults"/>
+
+    <TextView
+        android:id="@+id/DorHdefenition"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/edittext_outline"
+        android:drawablePadding="12dp"
+        android:gravity="center"
+        android:text="@string/DorHdefenition"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Confidencescoredefenition"/>
+
+    <TextView
+        android:id="@+id/Usefulinfodefenition"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/edittext_outline"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:text="@string/Usefulinfodefenition"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DorHdefenition"/>
+
+    <TextView
+        android:id="@+id/Nextstepdefenition"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/edittext_outline"
+        android:drawablePadding="12dp"
+        android:gravity="center"
+        android:text="@string/Nextstepdefenition"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Usefulinfodefenition"/>
+
+    <Button
+        android:id="@+id/Backbtn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="onClickMethod"
+        android:text="@string/Backbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Nextstepdefenition"
+        android:textColor="@color/ButtonText"
+        android:background="@drawable/edittext_outline"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

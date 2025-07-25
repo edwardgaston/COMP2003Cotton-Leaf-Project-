@@ -1,0 +1,29 @@
+User Story for Leaf Detection Mobile Android Application
+
+Green Guardian Leaf Detection App user stories:
+
+1.	As a user, I want to create a profile.
+
+2.	As a user, I want to use my details to login to my account.
+
+3.	As a user, I want to use my camera to scan leaf’s.
+
+4.	As a user, I want to use my camera flash to improve image quality.
+
+5.	As a user, I want to import photos in from my camera library.
+
+6.	As a user, I want to see the results of the leaf I have scanned.
+
+7.	As a user, I want to easily navigate between any page.
+
+8.	As a user, I want to see the history of the leaves I’ve previously scanned.
+
+9.	As a user, I want to edit my profile information.
+
+10.	As a user, I want to change the language of the application.
+
+Green Guardian Leaf Detection App Administrators:
+
+1.	As an admin, I want to remove accounts.
+
+2.	As an admin, I want to view reports.

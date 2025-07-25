@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">CottonLeaf</string>
+
+    <string name="Diseased_Plants">Photos Showing Diseased Plants</string>
+    <string name="HomeInfo">This application uses AI to distinguish between
+healthy cotton leaves and cotton leaves that show symptoms of
+the cotton leaf curl disease. History is shown within the application
+to allow users to maintain records of disease occurence aswell as any
+notes that they may want to include that would involve how it was dealt
+with etc.</string>
+    <string name="HomeTitle">Home</string>
+    <string name="InfoTitle">Information</string>
+    <string name="HistoryTitle">History</string>
+    <string name="ResultsInfoTitle">Results Information</string>
+
+    <string name="ResultsInfoButton">Results Information</string>
+
+
+    <string name="InfoText1" style="color: black;">
+Cotton Leaf Curl Disease is a severe condition that affects plants in the Malvaceae family, including cotton.
+        Recognizable symptoms include vein swelling, leaf cupping, and a distinct greening of infected leaves.
+</string>
+    <string name="InfoText2" style="color: black;">
+Immediate removal and destruction of diseased leaves, followed by a thorough inspection of neighbouring plants,
+        is crucial.
+</string>
+    <string name="InfoText3" style="color: black;">
+Infected plants should be either burned or buried deeply to prevent further spread. Additionally,
+        the use of insecticides is essential to control whiteflies, which can transmit the disease to healthy plants.
+</string>
+
+
+    <string name="Login">LOGIN</string>
+    <string name="SignUp">SIGN UP</string>
+    <string name="SignUp2">Sign Up!</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="ForgotPassword">Forgot Password?</string>
+
+    <string name="ProfileSettings">Profile Settings</string>
+    <string name="ConfirmChanges">CONFIRM CHANGES</string>
+    <string name="LanguageSelect">This button is used to select the language</string>
+    <string name="Logout">LOG OUT</string>
+
+    <string name="Welcome">Welcome!</string>
+    <string name="SignIn">Sign In</string>
+
+    <string name="ResultsTitle">Results</string>
+
+    <string name="SettingsTitle">Settings</string>
+    <string name="Notifications">Notifications</string>
+    <string name="AllowDeny">Allow/Deny</string>
+    <string name="DetectedLeaves">Diseased Leaves Detected :</string>
+    <string name="ImageResolution">Image Resolution</string>
+    <string name="LowRes">Low</string>
+    <string name="MediumRes">Medium</string>
+    <string name="HighRes">High</string>
+    <string name="UltraRes">Ultra</string>
+    <string name="Report">Report</string>
+
+    <string name="EditEmail">Edit Email</string>
+    <string name="CurrentPassword">Current Password</string>
+    <string name="EditPassword">New Password</string>
+
+
+    <string name="PreviousScan">Previous Scan</string>
+    <string name="NextScan">Next Scan</string>
+    <string name="ScanNumber">Scan Number:</string>
+    <string name="HealthyPercentage">Healthy Leaf Percentage:</string>
+    <string name="ConfidenceScore">Confidence Score:</string>
+    <string name="ReportInformationHere">Report Information Here</string>
+    <string name="HealthStatus">Health Status (Diseased or Healthy):</string>
+    <string name="Date">Date:</string>
+
+    <string name="ChoosePhoto">CHOOSE PHOTO FROM GALLERY</string>
+    <string name="TakePhoto">Button used to take photo</string>
+
+    <string name="ProfileNav">Button used to locate the profile settings</string>
+    <string name="SettingsNav">Button used to locate the settings page</string>
+    <string name="ResultsNav">Button used to locate the results page</string>
+    <string name="HomeNav">Button used to locate the home page</string>
+
+    <string name="Flash">Button used to enable/disable flash</string>
+    <string name="FlipCamera">Button used to flip the camera facing</string>
+
+    <string name="NextScanDescription">Button used to go to the next scan</string>
+    <string name="ScanNumberDescription">Displays the scan number</string>
+    <string name="DateDescription">Displays the date the photo was taken</string>
+    <string name="Photo">Displays photo that was taken</string>
+
+    <string name="TypeEmailHere">Type your email here</string>
+    <string name="TypePasswordHere">Type your password here</string>
+
+    <string name="LoginButton">Press to login</string>
+
+    <string name="SignInButton">Press to sign in</string>
+    <string name="SignUpButton">Press to sign up</string>
+
+    <string name="Submit">Submit Report</string>
+
+    <string name="ReportInfoHereDescription">Type your report information in here</string>
+
+    <string name="Confidencescoredefenition">Confidence Score = A percentage given 1-100     (1 being the worst and 100 being the best)</string>
+
+    <string name="DorHdefenition">Diseased or Healthy = The AI will determine whether  the leaf is Diseased or Healthy </string>
+
+    <string name="Usefulinfodefenition">  Useful information will display text relating to the targeted cotton leaf  </string>
+    <string name="Nextstepdefenition">The next steps provides advice the user can take to mitigate the chances of the leaf becoming diseased in the
+future</string>
+
+    <string name="Backbtn">Return to Results</string>
+
+    <string name="Confidencescore">Confidence score: </string>
+    <string name="Diseasedorhealthy">Diseased or Healthy:  Healthy</string>
+    <string name="Information">Useful Information:
+
+                          A healthy cotton leaf is crucial for optimal cotton plant growth and yield"</string>
+    <string name="Nextsteps">Next Steps:
+To maintain a healthy cotton leaf regular field inspections and appropriate environment should be in place</string>
+
+
+</resources>

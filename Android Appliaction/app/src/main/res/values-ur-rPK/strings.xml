@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Diseased_Plants">بیمار پودوں کو دکھانے والی تصاویر</string>
+    <string name="HomeInfo">یہ ایپلی کیشن اے آئی کے درمیان فرق کرنے کے لئے استعمال کرتی ہے
+صحت مند کپاس کے پتے اور کپاس کے پتے جن میں علامات ظاہر ہوتی ہیں
+کپاس کے پتوں کے کرل کی بیماری. تاریخ ایپلی کیشن کے اندر دکھائی گئی ہے
+تاکہ صارفین بیماری کے واقعات کے ساتھ ساتھ کسی بھی طرح کا ریکارڈ برقرار رکھ سکیں۔
+وہ نوٹ جو وہ شامل کرنا چاہتے ہیں جس میں اس سے نمٹنے کا طریقہ شامل ہوگا
+وغیرہ کے ساتھ.</string>
+    <string name="HomeTitle">گھر</string>
+    <string name="ResultsInfoTitle">نتائج کی معلومات</string>
+    <string name="ResultsInfoButton">نتائج کی معلومات</string>
+
+    <string name="InfoTitle">معلومات</string>
+    <string name="HistoryTitle">تاریخ</string>
+    <string name="Login">لاگ ان</string>
+    <string name="SignUp">سائن اپ کریں</string>
+    <string name="SignUp2">سائن اپ کریں!</string>
+    <string name="Email">ای میل</string>
+    <string name="Password">پاسورڈ</string>
+    <string name="ForgotPassword">پاس ورڈ بھول گئے؟</string>
+
+    <string name="ProfileSettings">پروفائل کی ترتیبات</string>
+    <string name="ConfirmChanges">تبدیلیوں کی تصدیق کریں</string>
+    <string name="LanguageSelect">یہ بٹن زبان منتخب کرنے کے لئے استعمال کیا جاتا ہے</string>
+    <string name="Logout">لاگ آؤٹ کریں</string>
+
+    <string name="Welcome">خوش آمدید!</string>
+    <string name="SignIn">سائن ان کریں</string>
+
+    <string name="ResultsTitle">نتائج</string>
+
+    <string name="SettingsTitle">سیٹنگیں</string>
+    <string name="Notifications">اطلاعات</string>
+    <string name="AllowDeny">اجازت دیں/ انکار کریں</string>
+    <string name="DetectedLeaves">بیمار پتوں کا پتہ چلا:</string>
+    <string name="ImageResolution">تصویر کی ریزولوشن</string>
+    <string name="LowRes">چھوٹا</string>
+    <string name="MediumRes">درمیانہ</string>
+    <string name="HighRes">اونچا</string>
+    <string name="UltraRes">الٹرا</string>
+    <string name="Report">رپورٹ</string>
+
+    <string name="InfoText2">بیمار پتوں کو فوری طور پر ہٹانا اور تباہ کرنا، اس کے بعد پڑوسی پودوں کا مکمل معائنہ،         اہم ہے.</string>
+    <string name="InfoText3">متاثرہ پودوں کو مزید پھیلنے سے روکنے کے لئے یا تو جلا دیا جانا چاہئے یا گہرائی میں دفن کیا جانا چاہئے۔ مزید برآں         سفید مکھیوں کو کنٹرول کرنے کے لئے حشرہ کش دواؤں کا استعمال ضروری ہے ، جو صحت مند پودوں میں بیماری منتقل کرسکتے ہیں۔</string>
+    <string name="InfoText1">کاٹن لیف کرل ڈیزیز ایک سنگین حالت ہے جو کپاس سمیت مالوسی خاندان کے پودوں کو متاثر کرتی ہے۔         قابل شناخت علامات میں رگوں میں سوجن، پتوں کا کپنگ، اور متاثرہ پتوں کا ایک الگ سبز ہونا شامل ہے۔</string>
+    <string name="EditEmail">ای میل میں ترمیم کریں</string>
+    <string name="CurrentPassword">موجودہ پاس ورڈ</string>
+    <string name="EditPassword">پاس ورڈ میں ترمیم کریں</string>
+
+    <string name="PreviousScan">پچھلا اسکین</string>
+    <string name="NextScan">اگلا اسکین</string>
+    <string name="ScanNumber">اگلا اسکین</string>
+    <string name="HealthyPercentage">صحت مند پتوں کا فیصد:</string>
+    <string name="ConfidenceScore">اعتماد کا اسکور:</string>
+    <string name="ReportInformationHere">یہاں معلومات کی اطلاع دیں۔:</string>
+    <string name="HealthStatus">صحت کی حیثیت (بیمار یا صحت مند):</string>
+    <string name="Date">تاریخ:</string>
+
+    <string name="ChoosePhoto">گیلری سے تصویر منتخب کریں</string>
+    <string name="TakePhoto">تصویر لینے کے لئے استعمال ہونے والا بٹن</string>
+
+    <string name="ProfileNav">پروفائل کی ترتیبات کو تلاش کرنے کے لئے استعمال ہونے والا بٹن</string>
+    <string name="SettingsNav">ترتیبات کے صفحے کو تلاش کرنے کے لئے استعمال ہونے والا بٹن</string>
+    <string name="ResultsNav">نتائج کے صفحے کو تلاش کرنے کے لئے استعمال ہونے والا بٹن</string>
+    <string name="HomeNav">ہوم پیج کو تلاش کرنے کے لئے استعمال ہونے والا بٹن</string>
+
+    <string name="Flash">فلیش کو فعال / غیر فعال کرنے کے لئے استعمال ہونے والا بٹن</string>
+    <string name="FlipCamera">کیمرے کو منہ موڑنے کے لئے استعمال ہونے والا بٹن</string>
+
+    <string name="NextScanDescription">اگلے اسکین پر جانے کے لئے استعمال ہونے والا بٹن</string>
+    <string name="ScanNumberDescription">اسکین نمبر ظاہر کرتا ہے</string>
+    <string name="DateDescription">تصویر لینے کی تاریخ ظاہر کرتا ہے</string>
+    <string name="Photo">لی گئی تصویر دکھاتا ہے</string>
+
+    <string name="TypeEmailHere">اپنا ای میل یہاں ٹائپ کریں</string>
+    <string name="TypePasswordHere">اپنا پاس ورڈ یہاں ٹائپ کریں</string>
+
+    <string name="LoginButton">لاگ ان کرنے کے لئے دبائیں</string>
+
+    <string name="SignInButton">سائن ان کرنے کے لئے دبائیں</string>
+    <string name="SignUpButton">سائن اپ کرنے کے لئے دبائیں</string>
+
+    <string name="Submit">رپورٹ پیش کریں</string>
+
+    <string name="ReportInfoHereDescription">اپنی رپورٹ کی معلومات یہاں ٹائپ کریں</string>
+    <string name="Confidencescoredefenition">اعتماد کا اسکور = ایک فیصد دیا گیا 1-100 (1 بدترین اور 100 بہترین)</string>
+    <string name="DorHdefenition">بیمار یا صحت مند = AI اس بات کا تعین کرے گا کہ پتی بیمار ہے یا صحت مند</string>
+    <string name="Usefulinfodefenition">  مفید معلومات ہدف شدہ کپاس کے پتے سے متعلق متن دکھائے گی۔  </string>
+    <string name="Nextstepdefenition">اگلے اقدامات مشورہ فراہم کرتے ہیں کہ صارف پتے کے بیمار ہونے کے امکانات کو کم کرنے کے لیے لے سکتا ہے۔
+مستقبل</string>
+    <string name="Backbtn">نتائج پر واپس جائیں۔</string>
+
+    <string name="Confidencescore">اعتماد کا سکور:</string>
+
+    <string name="Diseasedorhealthy">بیمار یا صحت مند: صحت مند</string>
+
+    <string name="Information">مفید معلومات:
+
+                           کپاس کے پودے کی بہترین نشوونما اور پیداوار کے لیے ایک صحت مند کپاس کی پتی بہت ضروری ہے۔</string>
+
+    <string name="Nextsteps">اگلے مراحل:
+کپاس کے پتے کو صحت مند رکھنے کے لیے کھیت کا باقاعدہ معائنہ اور مناسب ماحول ہونا چاہیے۔</string>
+
+
+
+</resources>

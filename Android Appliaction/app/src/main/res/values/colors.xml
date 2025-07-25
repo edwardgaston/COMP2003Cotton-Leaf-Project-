@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#06FE9B</color>
+    <color name="ButtonText">#14725F</color>
+    <color name="dark_green">#46684C</color>
+    <color name="Title_colour">#FF000000</color>
+    <color name="grey">#808080</color>
+    <color name="WelcomeGreen">#248572</color>
+
+
+    <color name="BackgroundColour">#EDFDEF</color>
+    <color name="PrimaryColour">#06FE9B</color>
+    <color name="SecondaryColour">#46684C</color>
+
+</resources>

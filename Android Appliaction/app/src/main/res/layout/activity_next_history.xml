@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profilebackground"
+    android:layoutDirection="locale"
+    tools:context=".HistoryPage">
+
+
+    <include
+        layout="@layout/navbarmain"
+        />
+
+    <View
+        android:id="@+id/HistoryPageView"
+        android:layout_width="365dp"
+        android:layout_height="570dp"
+        android:background="@drawable/textview_border"
+        android:backgroundTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.282" />
+
+    <TextView
+        android:id="@+id/TitleHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/HistoryTitle"
+        android:textColor="@color/Title_colour"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/HistoryPageView"
+        app:layout_constraintStart_toStartOf="@id/HistoryPageView"
+        app:layout_constraintTop_toTopOf="@id/HistoryPageView"
+        />
+
+    <TextView
+        android:id="@+id/ScanNumber"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edittext_outline"
+        android:gravity="center"
+        android:text="@string/ScanNumber"
+        android:contentDescription="@string/ScanNumberDescription"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="@id/HistoryPageView"
+        app:layout_constraintTop_toBottomOf="@+id/TitleHistory" />
+
+    <TextView
+
+        android:id="@+id/Date"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edittext_outline"
+        android:gravity="center"
+        android:text="@string/Date"
+        android:contentDescription="@string/DateDescription"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="@id/HistoryPageView"
+        app:layout_constraintTop_toBottomOf="@+id/TitleHistory"/>
+
+    <ImageView
+        android:id="@+id/cameraimageView"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/Photo"
+        android:background="@drawable/textview_border"
+        app:layout_constraintEnd_toEndOf="@id/HistoryPageView"
+        app:layout_constraintStart_toStartOf="@id/HistoryPageView"
+        app:layout_constraintTop_toBottomOf="@id/ScanNumber" />
+
+    <TextView
+        android:id="@+id/HealthPercentage"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_outline"
+        android:gravity="center"
+        android:text="@string/HealthyPercentage"
+        android:contentDescription="@string/HealthyPercentage"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="@id/HistoryPageView"
+        app:layout_constraintStart_toStartOf="@id/HistoryPageView"
+        app:layout_constraintTop_toBottomOf="@id/cameraimageView" />
+
+    <TextView
+        android:id="@+id/Confidencescore"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_outline"
+        android:gravity="center"
+        android:text="@string/ConfidenceScore"
+        android:contentDescription="@string/ConfidenceScore"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="@id/HistoryPageView"
+        app:layout_constraintStart_toStartOf="@id/HistoryPageView"
+        app:layout_constraintTop_toBottomOf="@id/HealthPercentage" />
+
+    <TextView
+        android:id="@+id/Diseasedorhealthy"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_outline"
+        android:drawablePadding="12dp"
+        android:gravity="center"
+        android:text="@string/HealthStatus"
+        android:contentDescription="@string/HealthStatus"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="@id/HistoryPageView"
+        app:layout_constraintStart_toStartOf="@id/HistoryPageView"
+        app:layout_constraintTop_toBottomOf="@id/Confidencescore" />
+
+
+
+    <Button
+        android:id="@+id/NextScan"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edittext_outline"
+        android:text="@string/NextScan"
+        android:contentDescription="@string/NextScanDescription"
+        android:gravity="center"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/Diseasedorhealthy"
+        app:layout_constraintEnd_toEndOf="@id/HistoryPageView"
+        />
+
+
+    <Button
+        android:id="@+id/LastScan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/Diseasedorhealthy"
+        app:layout_constraintStart_toStartOf="@id/HistoryPageView"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edittext_outline"
+        android:text="@string/PreviousScan"
+        android:contentDescription="@string/PreviousScan"
+        android:gravity="center"
+        android:drawablePadding="15dp"
+        android:padding="10dp"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

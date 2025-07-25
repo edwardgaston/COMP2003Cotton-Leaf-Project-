@@ -1,0 +1,9 @@
+Sprint 01/11/2023 – 13/11/2023
+•	Familiarise ourselves with the brief and read the report.
+•	Tidy up GitHub, create branches, location for minutes, sprints, product backlog etc.
+•	Start background learning on android studio such as login page.
+•	Create User stories on Trello.
+•	Establish Team Roles
+•	Set up clear communication links
+•	Start Learning on Figma
+•	Decide OS and language of application

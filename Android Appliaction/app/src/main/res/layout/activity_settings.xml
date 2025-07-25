@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/settingsbackground"
+    android:layoutDirection="locale"
+    tools:context=".Settings">
+    <include layout="@layout/navbarmain" />
+
+
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="10sp"
+        android:text="Green Guardian"
+        android:textSize="30sp"
+        android:textColor="@color/Title_colour"
+        />
+
+    <View
+        android:id="@+id/SettingsPageView"
+        android:layout_width="300sp"
+        android:layout_height="550sp"
+        app:layout_constraintTop_toBottomOf="@+id/Title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/textview_border"
+        />
+
+    <TextView
+        android:id="@+id/PageTitle"
+        android:layout_width="300sp"
+        android:layout_height="35sp"
+        app:layout_constraintTop_toTopOf="@id/SettingsPageView"
+        app:layout_constraintStart_toStartOf="@id/SettingsPageView"
+        app:layout_constraintEnd_toEndOf="@id/SettingsPageView"
+        android:text="@string/SettingsTitle"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:layout_marginTop="5sp"
+        android:textColor="@color/Title_colour"
+        />
+
+    <View
+        android:id="@+id/NotiView"
+        android:layout_width="250sp"
+        android:layout_height="80sp"
+        app:layout_constraintTop_toBottomOf="@id/PageTitle"
+        app:layout_constraintStart_toStartOf="@id/SettingsPageView"
+        app:layout_constraintEnd_toEndOf="@id/SettingsPageView"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/welcomepage_button_outline2"
+        />
+
+    <TextView
+        android:id="@+id/NotiText"
+        android:layout_width="120sp"
+        android:layout_height="20sp"
+        app:layout_constraintTop_toTopOf="@id/NotiView"
+        app:layout_constraintStart_toStartOf="@id/NotiView"
+        app:layout_constraintEnd_toEndOf="@id/NotiView"
+        android:layout_marginTop="5sp"
+        android:text="Notifications"
+        android:gravity="center_horizontal"
+        android:textColor="@color/Title_colour"
+        />
+
+    <Button
+        android:id="@+id/NotiButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/NotiView"
+        app:layout_constraintEnd_toEndOf="@id/NotiView"
+        app:layout_constraintTop_toBottomOf="@id/NotiText"
+        app:layout_constraintBottom_toBottomOf="@id/NotiView"
+        android:layout_marginBottom="5sp"
+        android:gravity="center"
+        android:text="@string/AllowDeny"
+        android:contentDescription="Button to Allow or Deny Notifications"
+        android:textSize="11sp"
+        android:background="@drawable/edittext_outline"
+        android:paddingRight="90sp"
+        android:paddingLeft="90sp"
+        />
+
+
+    <TextView
+        android:id="@+id/DiseasedLeavesDetected"
+        android:layout_width="250sp"
+        android:layout_height="40sp"
+        app:layout_constraintTop_toBottomOf="@id/NotiView"
+        app:layout_constraintStart_toStartOf="@id/SettingsPageView"
+        app:layout_constraintEnd_toEndOf="@id/SettingsPageView"
+        android:layout_marginTop="28sp"
+        android:background="@drawable/welcomepage_button_outline2"
+        android:text="@string/DetectedLeaves"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        android:paddingLeft="10sp"
+        />
+
+    <Spinner
+        android:id="@+id/LanguageSpinner"
+        android:layout_width="250sp"
+        android:layout_height="40sp"
+        app:layout_constraintStart_toStartOf="@id/SettingsPageView"
+        app:layout_constraintEnd_toEndOf="@id/SettingsPageView"
+        app:layout_constraintTop_toBottomOf="@id/DiseasedLeavesDetected"
+        android:layout_marginTop="28sp"
+        android:background="@drawable/welcomepage_button_outline2"
+        android:contentDescription="@string/LanguageSelect"
+        android:padding="5sp"
+        />
+
+    <Spinner
+        android:id="@+id/LocationSpinner"
+        android:layout_width="250dp"
+        android:layout_height="40sp"
+        app:layout_constraintStart_toStartOf="@id/SettingsPageView"
+        app:layout_constraintEnd_toEndOf="@id/SettingsPageView"
+        app:layout_constraintTop_toBottomOf="@id/LanguageSpinner"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/welcomepage_button_outline2"
+        android:contentDescription="Button to change location"
+        android:padding="5sp"
+
+
+        />
+
+    <Button
+        android:id="@+id/Report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Report"
+        app:layout_constraintStart_toStartOf="@id/LocationSpinner"
+        app:layout_constraintEnd_toEndOf="@id/LocationSpinner"
+        app:layout_constraintTop_toBottomOf="@id/LocationSpinner"
+        app:layout_constraintBottom_toBottomOf="@id/SettingsPageView"
+        android:background="@drawable/welcomepage_button_outline2"
+        android:paddingRight="100sp"
+        android:paddingLeft="100sp"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

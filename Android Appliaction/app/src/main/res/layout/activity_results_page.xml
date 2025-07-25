@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profilebackground"
+    android:layoutDirection="locale"
+    tools:context=".ResultsPage">
+
+    <include
+        layout="@layout/navbarmain" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="100sp"
+        android:layout_height="100sp" />
+
+    <View
+        android:id="@+id/InfoPageView"
+        android:layout_marginBottom="60sp"
+        android:layout_width="366dp"
+        android:layout_height="600dp"
+        android:background="@drawable/textview_border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+    <TextView
+        android:id="@+id/TitleResults"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="@string/ResultsTitle"
+        android:textColor="@color/Title_colour"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/InfoPageView"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="@id/InfoPageView"
+        app:layout_constraintTop_toTopOf="@id/InfoPageView" />
+
+    <ImageView
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:drawablePadding="12dp"
+        android:gravity="center"
+        android:layout_width="278dp"
+        android:layout_height="150dp"
+        android:id="@+id/cameraimageView"
+        android:scaleType="centerInside"
+        app:layout_constraintTop_toBottomOf="@id/TitleResults" />
+
+    <ImageView
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:layout_width="278dp"
+        android:layout_height="150dp"
+        android:id="@+id/selectedPhotoImageView"
+        android:scaleType="centerInside"
+        app:layout_constraintTop_toBottomOf="@id/TitleResults" />
+
+    <TextView
+        android:id="@+id/Confidencescore"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edittext_outline"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:text="@string/Confidencescore"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cameraimageView" />
+
+    <TextView
+        android:id="@+id/Diseasedorhealthy"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_outline"
+        android:drawablePadding="12dp"
+        android:gravity="center"
+        android:text="@string/Diseasedorhealthy"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Confidencescore" />
+
+    <TextView
+        android:id="@+id/Information"
+        android:layout_width="250dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/edittext_outline"
+        android:drawablePadding="12dp"
+        android:gravity="center"
+        android:text="@string/Information"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Diseasedorhealthy" />
+
+    <TextView
+        android:id="@+id/Nextsteps"
+        android:layout_width="250dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/edittext_outline"
+        android:drawablePadding="12dp"
+        android:gravity="center"
+        android:text="@string/Nextsteps"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Information" />
+
+
+  <Button
+      android:id="@+id/TestBtn"
+      android:layout_width="150dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="40dp"
+      android:layout_marginTop="8dp"
+      android:layout_marginEnd="16dp"
+      android:onClick="onClickMethod"
+      android:text="@string/ResultsInfoButton"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/Nextsteps"
+      android:textColor="@color/ButtonText"
+      android:background="@drawable/edittext_outline"
+      />
+
+    <Button
+        android:id="@+id/HistoryButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="40dp"
+        android:text="@string/HistoryTitle"
+        android:contentDescription="@string/HistoryTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Nextsteps"
+        android:textColor="@color/ButtonText"
+        android:background="@drawable/edittext_outline"
+        />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="30sp"
+        android:background="@drawable/homeicon"
+        android:contentDescription="string/HomeNav"
+        android:padding="4dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/NavBar" />
+
+    <Button
+        android:id="@+id/results"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="100sp"
+        android:background="@drawable/baseline_notes_24"
+        android:contentDescription="string/ResultsNav"
+        android:padding="4dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/NavBar"
+        />
+
+    <Button
+        android:id="@+id/settings"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="100sp"
+        android:background="@drawable/settingsicon"
+        android:contentDescription="string/SettingsNav"
+        android:padding="4dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/NavBar"
+        />
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="30sp"
+        android:background="@drawable/baseline_person_24"
+        android:padding="4dp"
+        android:textColor="@color/black"
+        android:contentDescription="string/ProfileNav"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/NavBar"
+        />
+
+
+    <Button
+        android:id="@+id/takephoto"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/takephoto"
+        android:padding="4dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="30sp"
+        />
+    <View
+        android:id="@+id/NavBar"
+        android:layout_width="match_parent"
+        android:layout_height="55sp"
+        android:background="@drawable/navbar_rendered"
+        android:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layoutDirection="locale" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
